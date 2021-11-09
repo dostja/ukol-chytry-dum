@@ -11,7 +11,7 @@ const Dashboard = ({ data }) => {
     <>
       <main className="dashboard">
         <Lights lights={data.lights} />
-        <Light />
+        
         <Climate
           temperature={data.climate.temperature}
           humidity={data.climate.humidity}
